@@ -1,0 +1,257 @@
+
+html {
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #4a5568;
+    font-weight: 400;
+    background-color: #062863;
+    font-size: 100%;
+}
+
+#container {
+    display: block;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+#container .center {
+    width: 35%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1078px) {
+    #container .center {
+        width: 40%;
+    }
+  }
+
+  @media (max-width: 878px) {
+    #container .center {
+        width: 60%;
+    }
+  }
+  
+  @media (max-width: 678px) {
+    #container .center {
+        width: 75%;
+    }
+  }
+
+  @media (max-width: 478px) {
+    #container .center {
+        width: 85%;
+    }
+  }
+
+  @media (max-width: 378px) {
+    #container .center {
+        width: 90%;
+    }
+  }
+
+.background-images .field { 
+    width: 60%;
+    height: auto;
+}
+
+.background-images .field img {
+    width: 100%;
+    height: auto;
+}
+
+.background-images .field:nth-child(1) {
+    width: 15%;
+    position: fixed;
+    left: -1.1rem;
+    top: -8rem;
+}
+
+.background-images .field:nth-child(2) {
+    width: 15%;
+    position: fixed;
+    right: -11rem;
+    top: -0.5rem;
+}
+
+.background-images .field:nth-child(3) {
+    width: 15%;
+    position: fixed;
+    left: -6rem;
+    bottom: -6rem;
+}
+
+.background-images .field:nth-child(4) {
+    width: 15%;
+    position: fixed;
+    right: -7rem;
+    bottom: -4rem;
+}
+
+.home-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home-logo img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.gray-text {
+    color: #4a5568;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#container .form {
+    background-color: #fff;
+    padding: 4rem 3.5rem;
+    border-bottom-right-radius: 1.95rem;
+    border-top-left-radius: 1.95rem;
+    border-top-right-radius: 1.95rem;
+    margin: 0 auto;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+.form-heading h1 {
+    color: #083e9e;;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.form-heading p {
+    line-height: 1.8;
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    color: #666F7F;
+}
+
+.form-field-area {
+    margin-top: 3rem;
+}
+
+form .field {
+    margin-bottom: 3rem;
+}
+
+label {
+    display: block;
+    margin-bottom: -0.9rem;
+}
+
+input {
+    background-color: #EDF2F7;
+    padding: 2rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #A3B0C2;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+select {
+    width: 100%;
+    background-color: #EDF2F7;
+    padding: 1.9rem;
+    border-radius: 5px;
+    color: rgb(84, 87, 92);
+    font-size: 1.5rem;
+}
+
+select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+
+form button {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #083E9E;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.9rem;
+    border-bottom-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+}
+
+.footer-field {
+    margin-top: 3.5rem;
+}
+
+.footer-field p {
+    text-align: center;
+}
+
+.footer-field p a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.footer-field p a:hover {
+    color: #777;
+}
+
+.selection {
+    position: relative; 
+  }
+  
+  
+  .selection:after {
+    content: '\f054';
+    font-family: FontAwesome;
+    font-size: 14px;
+    color: #CECECF;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 19px;
+    /*Adjust for position however you want*/
+    
+    top: 45%;
+    padding: 5px 5px;
+    border-bottom: 1px solid #999;
+    /*left line */
+    
+    position: absolute;
+    pointer-events: none;
+  }
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
